@@ -1,0 +1,44 @@
+.main-content {
+    width: 60%;
+    border: 1px solid red;
+    margin: auto;
+}
+
+.pre-intro {
+    text-align: center;
+}
+
+#topic {
+    color: red;
+    font-style: italic;
+}
+
+.intro {
+    margin-left: 40px;
+}
+
+.intro > p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.confession {
+    margin-left: 40px;
+    margin-top: 35px;
+}
+
+.confession > p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.end {
+    margin-left: 50%;
+    text-align: center;
+}
+
+#name {
+    font-style: italic;
+    color: red;
+    font-weight: bold;
+}
