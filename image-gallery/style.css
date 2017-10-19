@@ -1,0 +1,41 @@
+.container {
+    border: 1px solid lightcyan;
+    background-color: lightsalmon;
+    margin-top: 60px;
+}
+
+.cat-image {
+    width: 33%;
+    border: 1px solid lightgrey;
+    margin-left: 10%;
+}
+
+.cat-image:hover {
+    filter: blur(10px);
+}
+
+.navbar {
+    background-color: lightslategray;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.navbar > a {
+    color: white;
+    font-size: 30px;
+    padding: 0px 20px;
+    margin-left: 60px;
+}
+
+.navbar > i {
+    margin-left: 30px;
+}
+
+.navbar > a:link {
+    text-decoration: none;
+}
+
+.navbar > a:hover {
+    background-color: cyan;
+}
