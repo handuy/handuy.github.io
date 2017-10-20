@@ -1,0 +1,20 @@
+.product-img {
+    max-width: 300px;
+}
+
+figure {
+    display: inline-block;
+    border: 1px solid chartreuse;
+}
+
+a {
+    color: saddlebrown;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
