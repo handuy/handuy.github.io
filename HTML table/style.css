@@ -11,6 +11,7 @@ td, th {
 
 thead > tr {
     background-color:lightcoral;
+    cursor: pointer;
 }
 
 tbody > tr:nth-child(odd) {
