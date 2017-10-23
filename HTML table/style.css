@@ -1,0 +1,31 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid lightblue;
+    text-align: left;
+    padding: 8px;
+}
+
+thead > tr {
+    background-color:lightcoral;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: lavender;
+}
+
+tbody > tr:nth-child(even) {
+    background-color: lightyellow;
+}
+
+tbody > tr:hover {
+    background-color: cyan;
+}
+
+
+img {
+    height: 60%;
+}
