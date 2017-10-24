@@ -1,0 +1,24 @@
+body {
+    background-color: lightgrey;
+}
+
+.container {
+    margin-top: 90px;
+}
+
+.row > div {
+    margin-bottom: 9px;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.cat-image:hover {
+    filter: blur(10px);
+}
+
+.navbar > a {
+    color: white;
+}
