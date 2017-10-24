@@ -1,0 +1,98 @@
+header {
+    position: relative;
+}
+
+header > h1 {
+    position: absolute;
+    color: white;
+    top: 28%;
+    left: 6%;
+    font-family: 'Caveat', cursive;
+    font-size: 100px;
+}
+
+header > h2 {
+    position: absolute;
+    color: white;
+    top: 45%;
+    left: 18%;
+    font-family: 'Caveat', cursive;
+    font-size: 70px;
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    top: 5%;
+    left: 1%;
+    width: 25%;
+    background-color: #34495E;
+}
+
+.menu h2 {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 15px;
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
+}
+
+.menu a:visited {
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #B43C52;
+}
+
+.story {
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    width: 65%;
+}
+
+article h2 {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.story p {
+    line-height: 1.5;
+    text-indent: 20px;
+    word-spacing: 2px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 23px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 150px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:visited {
+    text-decoration: none;
+}
