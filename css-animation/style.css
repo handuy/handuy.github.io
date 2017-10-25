@@ -1,0 +1,97 @@
+header {
+    position: relative;
+    margin-top: 84px;
+}
+
+header > img {
+    max-width: 100%;
+}
+
+header > h1 {
+    position: absolute;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: white;
+    top: 51%;
+    left: 37%;
+    animation: fade 5s linear infinite;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0
+    }
+    25% {
+        opacity: 0.5
+    }
+    50% {
+        opacity: 1
+    }
+    75% {
+        opacity: 0.5
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+article > h2 {
+    font-family: 'Alex Brush', cursive;    
+}
+
+article > p {
+    font-family: 'Marvel', sans-serif;
+    font-size: 27px;    
+}
+
+footer {
+    color: red;
+    animation: run 10s linear infinite;
+    font-size: 30px;
+}
+
+@keyframes run {
+    0% {
+        margin-left: 0px;
+        opacity: 0;
+    }
+    10% {
+        margin-left: 100px;
+        opacity: 0.5;
+    }
+    20% {
+        margin-left: 200px;
+        opacity: 0.75; 
+    }
+    30% {
+        margin-left: 300px;
+        opacity: 1; 
+    }
+    40% {
+        margin-left: 400px;
+        opacity: 1;  
+    }
+    50% {
+        margin-left: 500px;
+        opacity: 1;  
+    }
+    60% {
+        margin-left: 600px;
+        opacity: 0.75;
+    }
+    70% {
+        margin-left: 700px;
+        opacity: 0.5;
+    }
+    80% {
+        margin-left: 800px;
+        opacity: 0.25;
+    }
+    90% {
+        margin-left: 250px;
+        opacity: 0.15;
+    }
+    100% {
+        margin-left: 300px;
+        opacity: 0;
+    }
+}

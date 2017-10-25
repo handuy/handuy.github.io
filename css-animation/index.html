@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" 
+    integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" 
+    integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" 
+    integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <script src="https://use.fontawesome.com/8cce99b94e.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Alex+Brush|Gloria+Hallelujah|Marvel" rel="stylesheet">    
+
+    <link rel="stylesheet" href="style.css">
+    <title>HTML5 layout</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">
+            <i class="fa fa-futbol-o fa-2x" aria-hidden="true"></i>                
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav d-flex justify-content-around" style="width:100%;">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our writers</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" 
+                    aria-haspopup="true" aria-expanded="false">
+                        Teams
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Manchester United</a>
+                        <a class="dropdown-item" href="#">Real Madrid</a>
+                        <a class="dropdown-item" href="#">Barcelona</a>
+                        <a class="dropdown-item" href="#">Bayern Munich</a>
+                        <a class="dropdown-item" href="#">Juventus</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <img src="image/luka.png" title="Luka Modric the playmaker" alt="Luka Modric the playmaker">
+        <h1>The Playmaker</h1>
+    </header>
+
+    <main class="container-fluid">
+        <div class="row">
+            <aside class="col-sm-2 col-md-3">
+                <h3>Luka Modric's Profile</h3>
+                <p>
+                    Name: Luka Modric <br/>
+                    Age: 32 <br/>
+                    Team: Real Madrid <br/>
+                    Nationality: Croatia <br/>
+                </p>
+            </aside>
+
+            <section class="col-sm-10 col-md-9">
+                <article>
+                    <h2>
+                        The man who made Real Madrid great again
+                    </h2>
+                    <p>
+                        Upon Modric's arrival, there was confusion over what would be his role. Modric was widely described 
+                        as a "mediapunta", a support striker or playmaker. Anybody who had seen him in England, though, 
+                        knew that his best position was as a midfielder sitting slightly deeper, carrying the ball forward 
+                        and picking out team-mates with his superb vision and range of passing. <br/>
+
+                        There were further doubts as Mourinho left and Carlo Ancelotti came in, but the Italian had praised 
+                        the midfielder on television prior to his Madrid move and decided to build his team around the 
+                        Croatian. <br/>
+
+                        It worked. With Modric pulling the strings in midfield, Madrid became a better football team. 
+                        In Europe especially, he has been the catalyst for three Champions League crowns over the past four 
+                        seasons: one with Ancelotti and two more with Zidane. <br/>
+                        
+                        In the first of those, it was a Modric corner that found Sergio Ramos for the late leveller that 
+                        broke Atletico hearts in Lisbon. Ancelotti said last year: "Luka Modric is definitely one of best 
+                        midfield players in the world. He has great technical abilities, reads the game and has a strong 
+                        personality that he has built over the years. Besides that, he is a very pleasant person." <br/>
+
+                        Everybody says so. And besides being thought of as a great guy, Modric is considered by most to be 
+                        among the best midfielders in the world right now, perhaps even the finest of them all. Although he 
+                        is not prolific in terms of goals or assists, Modric makes Madrid tick. And it is no coincidence that 
+                        Real have kept winning the Champions League since he signed for what now seems a ridiculously low 
+                        €35 million fee back in 2012. <br/>
+
+                        As much and perhaps even more than anyone else, it is he who made Madrid great again.
+                    </p>
+                </article>
+            </section>
+        </div>
+    </main>
+
+    <footer id="contact">
+        Visit us at Techmaster Hoang Quoc Viet
+    </footer>
+</body>
+</html>
