@@ -44,7 +44,7 @@ article > p {
 }
 
 footer {
-    color: red;
+    color: blue;
     animation: run 10s linear infinite;
     font-size: 30px;
 }
