@@ -1,0 +1,33 @@
+header {
+    position: relative;
+    margin-top: 84px;
+}
+
+header > img {
+    max-width: 100%;
+}
+
+header > h1 {
+    position: absolute;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: white;
+    top: 51%;
+    left: 37%;  
+}
+
+article > h2 {
+    font-family: 'Alex Brush', cursive;    
+}
+
+article > p {
+    font-family: 'Marvel', sans-serif;
+    font-size: 27px;    
+}
+
+footer {
+    background-color: lightgrey;
+}
+
+footer > address {
+    text-align: center;
+}
