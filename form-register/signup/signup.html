@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" 
+    integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
+
+    <link rel="stylesheet" href="../style.css">
+    <title>Sign up</title>
+</head>
+<body>
+    <section id="content">
+        <h1>Signup successfully</h1>
+    </section>
+    <script>
+        function getInfo() {
+            var info = window.location.search.slice(1).split("&");
+            var result = [];
+            info.forEach(function(item){
+                var equal = item.indexOf("=");
+                result.push(item.slice(equal + 1));
+            })
+            var name = decodeURIComponent( result[0].replace(/\+/gi, " ") );
+            var date = result[1].replace(/%2F/gi, "/");
+            var gender = result[2];
+            var address = decodeURIComponent( result[3].replace(/\+/gi, " ") );
+            var phone = result[4];
+            var email = result[5].replace(/%40/gi, "@");
+            var password = result[6];
+            $("#content").append("<p>Your name: " + name + "</p>");
+            $("#content").append("<p>Your birthday: " + date + "</p>");
+            $("#content").append("<p>Your gender: " + gender + "</p>");
+            $("#content").append("<p>Your address: " + address + "</p>");
+            $("#content").append("<p>Your phone: " + phone + "</p>");
+            $("#content").append("<p>Your email: " + email + "</p>");
+            $("#content").append("<p>Your password: " + password + "</p>");
+        }
+        getInfo();
+    </script>
+</body>
+</html>

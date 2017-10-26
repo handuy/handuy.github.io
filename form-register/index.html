@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" 
+    integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Form register</title>
+</head>
+<body>
+    <section>
+        <h2>Techmaster English Club registration</h2>
+        <form method="GET">
+            <!-- name -->
+            <div class="form-group row">
+                <label for="fullname" class="col-sm-3 col-form-label">Full name</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" id="fullname" aria-describedby="fullName" 
+                    placeholder="Enter your full name" name="fullname">
+                </div>
+            </div>
+
+            <!-- birthday -->
+            <div class="form-group row">
+                <label for="birthday" class="col-sm-3 col-form-label">Birthday</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" id="birthday" aria-describedby="birthday" 
+                    placeholder="Enter your birthday" name="birthday">
+                </div>
+            </div>
+
+            <!-- gender -->
+            <fieldset class="form-group">
+                <div class="row">
+                    <legend class="col-form-legend col-sm-3">Gender</legend>
+                    <div class="col-sm-9">
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="gender" id="male" 
+                                value="male" checked> Male
+                            </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="radio" name="gender" id="female" 
+                                value="female"> Female
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+
+            <!-- address -->
+            <div class="form-group row">
+                <label for="address" class="col-sm-3 col-form-label">Address</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" id="address" aria-describedby="address" 
+                    placeholder="Enter your address" name="address">
+                </div>
+            </div>
+
+            <!-- phone -->
+            <div class="form-group row">
+                <label for="phone" class="col-sm-3 col-form-label">Phone number</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" id="phone" aria-describedby="phone" 
+                    placeholder="Enter your phone number" name="phone">
+                </div>
+            </div>
+
+            <!-- email -->
+            <div class="form-group row">
+                <label for="email" class="col-sm-3 col-form-label">Email</label>
+                <div class="col-sm-9">
+                    <input type="email" class="form-control" id="email" aria-describedby="email" 
+                    placeholder="Enter your email" name="email">
+                </div>
+            </div>
+
+            <!-- password -->
+            <div class="form-group row">
+                <label for="password" class="col-sm-3 col-form-label">Password</label>
+                <div class="col-sm-9">
+                    <input type="password" class="form-control" id="password" aria-describedby="password" 
+                    placeholder="Enter your password" name="password">
+                </div>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" formaction="signup/signup.html">
+                Submit
+            </button>
+        </form>
+    </section>
+</body>
+</html>
