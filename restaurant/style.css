@@ -1,0 +1,168 @@
+.intro {
+    margin-top: 84px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("image/home/intro.jpg");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.intro-text h1 {
+    position: absolute;
+    top: 4%;
+    left: 37%;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;    
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.intro-text h2 {
+    position: absolute;
+    top: 17%;
+    left: 27%;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;    
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+.intro-text hr {
+    position: absolute;
+    top: 24%;
+    left: 27%;
+    width: 50.5%;
+    height: 1px;
+    background-color: white;
+}
+
+.intro-text p:nth-of-type(1) {
+    position: absolute;
+    top: 30%;
+    left: 29.5%;
+    color: white;
+    font-family: 'Raleway',sans-serif;    
+    font-size: 38px;
+}
+
+.intro-text p:nth-of-type(2) {
+    position: absolute;
+    top: 37%;
+    left: 29%;
+    color: white;
+    font-family: 'Raleway',sans-serif;    
+    font-size: 38px;
+}
+
+.promotion .card-title {
+    font-family: 'Cherry Swash', cursive;
+    font-size: 50px;  
+    color: red;
+}
+
+.promotion .card-text {
+    color: red;
+    font-family: 'Cherry Swash', cursive;
+    font-size: 55px;
+}
+
+#menu {
+    margin-top: 100px;
+}
+
+#menu h1 {
+    display: inline-block;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 50px;
+    margin-left: 44px;
+}
+
+#menu img {
+    width: 12%;
+}
+
+.media-body {
+    font-family: 'Raleway',sans-serif;
+}
+
+.exclusive-detail {
+    color: red;
+    font-size: 30px;
+    font-family: 'Berkshire Swash', cursive;
+    animation: flick 1.5s linear infinite;
+}
+
+@keyframes flick {
+    0% {
+        opacity: 0
+    }
+    50% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+.special-event {
+    margin-top: 90px;
+}
+
+.special-event h1 {
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+    font-size: 70px;
+}
+
+.special-event .card-text {
+    font-family: 'Raleway',sans-serif;
+    font-size: 30px;
+}
+
+.special-event li {
+    font-size: 25px;
+}
+
+.special-promotion {
+    margin-top: 100px;
+}
+
+.special-promotion .card-title {
+    font-family: 'Cherry Swash', cursive;
+    font-size: 50px;  
+    color: red;
+}
+
+.special-promotion .card-text {
+    color: red;
+    font-family: 'Cherry Swash', cursive;
+    font-size: 55px;
+}
+
+footer {
+    background-color: #292c2f;
+    color: white;
+}
+
+#map {
+    width: 90%; 
+    height: 95%;
+}
+
+
+.other-promo .card-title {
+    font-family: 'Cherry Swash', cursive;
+    font-size: 55px;  
+}
+
+.other-promo .card-text {
+    font-family: 'Cherry Swash', cursive;
+    font-size: 50px;
+}
+
+.beer-detail {
+    margin-top: 150px;
+}
+
+.beer-detail ul {
+    list-style-type: none;
+}

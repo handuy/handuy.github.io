@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" 
+    integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" 
+    integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" 
+    integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/8cce99b94e.js"></script>  
+    
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Cherry+Swash:700|Raleway" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../style.css">
+    <title>Beer menu</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="../index.html">
+            <i class="fa fa-beer fa-2x" aria-hidden="true"></i>                
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav d-flex justify-content-around" style="width:100%;">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" 
+                    aria-haspopup="true" aria-expanded="false">
+                        List of beer
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#german">German beer</a>
+                        <a class="dropdown-item" href="#belgium">Belgium beer</a>
+                        <a class="dropdown-item" href="#holland">Holland beer</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../event/event.html">Special events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../promotion/promotion.html">Special promotion</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="menu">
+        <div class="container">
+            <section id="german">
+                <img src="../image/menu/germany.gif">
+                <h1>Germany</h1>
+                <ul class="list-unstyled">
+                    <li class="media my-5" id="german1">
+                        <img class="mr-4" src="../image/menu/menu-german-1.jpg" 
+                        alt="Exclusive German beer - Schneider Weisse Tap 6, 8.2%"
+                        title="Exclusive German beer - Schneider Weisse Tap 6, 8.2%">
+                        <div class="media-body ml-4">
+                            <h2 class="mt-0 mb-1">Schneider Weisse Tap 6 <span class="exclusive-detail">Exclusive</span></h2>
+                            A legendary German beer brewed with wheat and dark malts. It’s full-bodied, subtly sweet, 
+                            smooth and creamy, and peppered with spiciness from the yeast and hops. High in alcohol and 
+                            big on flavour, every sip is a beery pleasure.
+                            <p>
+                                <a href="../detail/german-1.html" class="btn btn-success" role="button">
+                                    Serve me this
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="media my-5" id="german2">
+                        <img class="mr-4" src="../image/menu/menu-german-2.jpg" 
+                        alt="Exclusive German beer - Fruh Kolsch , 4.8%" 
+                        title="Exclusive German beer - Fruh Kolsch , 4.8%">
+                        <div class="media-body ml-4">
+                            <h2 class="mt-0 mb-1">Fruh Kolsch <span class="exclusive-detail">Exclusive</span> </h2>
+                            Cologne’s beer style, Kölsch, is a pale ale bordering on lager territory and Früh’s 
+                            version is as refreshing as it comes. Clean and light with a bready sweetness, 
+                            some lemon fruitiness and a dry, hoppy finish. It’s so drinkable that the bottle 
+                            rarely seems big enough.
+                            <p>
+                                <a href="../detail/german-2.html" class="btn btn-success" role="button">
+                                    Serve me this
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+                </ul>                
+            </section>
+
+            <hr>
+
+            <section id="belgium">
+                <img src="../image/menu/belgium.gif">
+                <h1>Belgium</h1>
+                <ul class="list-unstyled">
+                    <li class="media my-5" id="belgium1">
+                        <img class="mr-4" src="../image/menu/menu-belgium-1.jpg" 
+                        alt="Exclusive Belgium beer - Brouwerij Bosteels DeuS"
+                        title="Exclusive Belgium beer - Brouwerij Bosteels DeuS">
+                        <div class="media-body ml-4">
+                            <h2 class="mt-0 mb-1">Brouwerij Bosteels DeuS <span class="exclusive-detail">Exclusive</span></h2>
+                            One of the more intriguing wine-beer hybrids is bière de champagne, or bière brut. As with 
+                            champagne, the process incorporates lengthy multiple fermentations and disgorging yeast from 
+                            the bottle’s neck. A leading example is DeuS (pronounced DAY-ews), which is fermented in 
+                            Belgium but is fittingly finished in France’s Champagne region. The result is a Sahara-dry 
+                            sparkler with a spoonful of citrus and funk.
+                            <p>
+                                <a href="../detail/belgium-1.html" class="btn btn-success" role="button">
+                                    Serve me this
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="media my-5" id="belgium2">
+                        <img class="mr-4" src="../image/menu/menu-belgium-2.jpg" 
+                        alt="Exclusive Belgium beer - Orval Trappist Ale" 
+                        title="Exclusive Belgium beer - Orval Trappist Ale">
+                        <div class="media-body ml-4">
+                            <h2 class="mt-0 mb-1">Orval Trappist Ale <span class="exclusive-detail">Exclusive</span> </h2>
+                            The beer was first brewed in 1931 and owes its unparalleled taste to the quality of the water, 
+                            the hops and the yeast used. The brewery has selected very aromatic and unique hop varieties, 
+                            which hark back to the first brewmaster of Orval, who hailed from Bavaria. The beer’s aromas 
+                            are very pronounced while maintaining the right level of bitterness thanks to the English 
+                            method of dry hopping.
+                            <p>
+                                <a href="../detail/belgium-2.html" class="btn btn-success" role="button">
+                                    Serve me this
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+                </ul> 
+            </section>
+
+            <hr>
+
+            <section id="holland">
+                <img src="../image/menu/netherlands.gif">
+                <h1>The Netherlands</h1>
+                <ul class="list-unstyled">
+                    <li class="media my-5" id="holland1">
+                        <img class="mr-4" src="../image/menu/menu-holland-1.jpg" 
+                        alt="Exclusive Holland beer - Jopen Koyt"
+                        title="Exclusive Holland beer - Jopen Koyt">
+                        <div class="media-body ml-4">
+                            <h2 class="mt-0 mb-1">Jopen Koyt <span class="exclusive-detail">Exclusive</span></h2>
+                            Jopen Koyt is brewed with gruit, a medieval blend of herbs in which sweet gale picked according 
+                            to ritual was essential. Legend has it that, to avoid its hallucinogenic properties, sweet gale 
+                            could only be picked at full moon by nude witches.
+                            <p>
+                                <a href="../detail/holland-1.html" class="btn btn-success" role="button">
+                                    Serve me this
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="media my-5" id="holland2">
+                        <img class="mr-4" src="../image/menu/menu-holland-2.jpg" 
+                        alt="Exclusive Holland beer - Brouwerij 't IJ Struis" 
+                        title="Exclusive Holland beer - Brouwerij 't IJ Struis">
+                        <div class="media-body ml-4">
+                            <h2 class="mt-0 mb-1">Brouwerij 't IJ Struis <span class="exclusive-detail">Exclusive</span> </h2>
+                            A barley wine brewed in the English style. Struis is a full-bodied beer with a deep, dark colour 
+                            and a soft, long-lasting head. The aroma is dark and sweet, with clear tones of chocolate and dried 
+                            fruit. The aftertaste is dry and long-lasting, and leaves you yearning for more. A delicious 
+                            accompaniment to food and ideal with skeapsrond cheese. Struis is only available as a bottled beer.
+                            <p>
+                                <a href="../detail/holland-2.html" class="btn btn-success" role="button">
+                                    Serve me this
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

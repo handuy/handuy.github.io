@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" 
+    integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" 
+    integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" 
+    integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/8cce99b94e.js"></script>  
+    
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Cherry+Swash:700|Raleway" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../style.css">
+    <title>Brouwerij 't IJ Struis</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="../index.html">
+            <i class="fa fa-beer fa-2x" aria-hidden="true"></i>                
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav d-flex justify-content-around" style="width:100%;">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" 
+                    aria-haspopup="true" aria-expanded="false">
+                        List of beer
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="../menu/beer.html#german">German beer</a>
+                        <a class="dropdown-item" href="../menu/beer.html#belgium">Belgium beer</a>
+                        <a class="dropdown-item" href="../menu/beer.html#holland">Holland beer</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../event/event.html">Special events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../promotion/promotion.html">Special promotion</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container beer-detail">
+        <section class="media my-5">
+            <img class="mr-4" src="../image/menu/menu-holland-2.jpg" 
+            alt="Exclusive German beer - Brouwerij 't IJ Struis" 
+            title="Exclusive German beer - Brouwerij 't IJ Struis">
+            <div class="media-body ml-4">
+                <h2 class="mt-0 mb-1">Brouwerij 't IJ Struis</h2>
+                <ul class="px-0">
+                    <li class="my-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                        labore et dolore magna aliqua.</li>
+                    <li class="my-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                        labore et dolore magna aliqua.</li>
+                    <li class="my-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                        labore et dolore magna aliqua.</li>
+                    <li class="my-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                        labore et dolore magna aliqua.</li>
+                </ul>
+                <a href="../menu/beer.html#holland2" class="card-link">Back to menu</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
