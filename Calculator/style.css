@@ -39,7 +39,7 @@ span {
     height: 50px;
 }
 
-button {
+#calculator button {
     background-color: inherit;
     border-style: none;
     color: white;
@@ -49,7 +49,17 @@ button {
     font-size: 22px;
 }
 
-button:hover {
+#calculator button:hover {
     background-color: lightgray;
     border-radius: 40%;
+}
+
+#theme {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
 }

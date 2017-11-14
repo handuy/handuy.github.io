@@ -1,6 +1,20 @@
 $(document).ready(function(){
     var array = [];
     var stringNumber = "";
+
+    var i = 0;
+    $("#theme").click(function(){
+        i++;
+        if (i%2 == 1) {
+            $("body").css({
+                "background": "linear-gradient(180deg, white, whitesmoke)"
+            })
+        } else {
+            $("body").css({
+                "background": "linear-gradient(180deg, #feead2, #fff8ee)"
+            })
+        }  
+    })
     
     $(".mathOperator").click(function(){
         if (array.indexOf("=") == -1) {
