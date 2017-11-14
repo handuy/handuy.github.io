@@ -8,10 +8,16 @@ $(document).ready(function(){
         if (i%2 == 1) {
             $("body").css({
                 "background": "linear-gradient(180deg, white, whitesmoke)"
-            })
+            });
+            $("#calculator").css({
+                "background": "linear-gradient(135deg, lightcoral, coral)"
+            });
         } else {
             $("body").css({
                 "background": "linear-gradient(180deg, #feead2, #fff8ee)"
+            })
+            $("#calculator").css({
+                "background": "linear-gradient(135deg, #fcaf3b, #f25c2a)"
             })
         }  
     })
