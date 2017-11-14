@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Calculator </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        -->
+
+    <!-- Optional theme -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" 
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        -->
+
+    <!-- Latest compiled and minified JavaScript -->
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        -->
+
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <main id="calculator">
+        <section id="result">
+            <span>0</span>
+        </section>
+
+        <section id="input">
+            <div class="flex-container">
+                <button class="square">x&#178;</button>
+                <button class="factorial">!</button>
+                <button class="square-root">&#8730;</button>
+                <button class="percentage">%</button>
+            </div>
+
+            <div class="flex-container">
+                <button class="paren" id="openParen">(</button>
+                <button class="paren" id="closeParen">)</button>
+                <button id="delete"> Del </button>
+                <button class="mathOperator" id="plus"> + </button>
+            </div>
+
+            <div class="flex-container">
+                <button class="number"> 7 </button>
+                <button class="number"> 8 </button>
+                <button class="number"> 9 </button>
+                <button class="mathOperator" id="minus"> - </button>
+            </div>
+
+            <div class="flex-container">
+                <button class="number"> 4 </button>
+                <button class="number"> 5 </button>
+                <button class="number"> 6 </button>
+                <button class="mathOperator" id="multiply"> x </button>
+            </div>
+
+            <div class="flex-container">
+                <button class="number"> 1 </button>
+                <button class="number"> 2 </button>
+                <button class="number"> 3 </button>
+                <button class="mathOperator" id="divide"> &#247; </button>
+            </div>
+
+            <div class="flex-container">
+                <button id="reset"> CE </button>
+                <button class="number"> 0 </button>
+                <button class="dot"> . </button>
+                <button class="equal"> = </button>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
