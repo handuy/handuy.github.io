@@ -14,11 +14,11 @@
     }
 
     &--red {
-        background-color: #E70E02;
+        background-color: #EB1212;
         margin-bottom: 2rem;
 
         &:hover {
-            color: #E70E02;
+            color: #EB1212;
         }
 
         &:active {
@@ -39,4 +39,9 @@
             cursor: pointer;
         }
     }
+}
+
+.btn-danger {
+    background-color: #EB1212;
+    border-color: #EB1212;
 }
