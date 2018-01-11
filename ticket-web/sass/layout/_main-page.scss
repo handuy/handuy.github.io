@@ -38,7 +38,7 @@
             margin-top: 1rem;
         
             h3{
-                font-size: 3rem;
+                font-size: 2.5rem;
             }
         }
 
@@ -47,7 +47,7 @@
             margin-bottom: 1.5rem;
             .btn {
                 font-size: 2.5rem;
-                color: white !important;
+                font-weight: 500;
             }
         }
 
@@ -72,12 +72,14 @@
                 font-size: 2rem;
                 color: black;
                 font-weight: bold;
+                background-color: whitesmoke;
             }
 
             p:nth-child(3) {
                 font-size: 2rem;
                 color: black;
                 font-weight: bold;
+                background-color: whitesmoke;
             }
         }
     }
