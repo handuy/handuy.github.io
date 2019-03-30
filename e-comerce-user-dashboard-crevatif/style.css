@@ -81,6 +81,7 @@ body {
 .personal {
     display:flex;
     align-items:center;
+    justify-content: space-between;
     margin-top: 20px;
     padding-left: 20px;
 }
@@ -100,4 +101,58 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
     display:inline-block;
+}
+
+.pen-logout {
+    border:1px solid gainsboro;
+    border-radius:100%;
+    padding:10px;
+    margin-right: 10px;
+}
+
+.knowledge {
+    margin-top: 50px;
+    padding-left: 25px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.knowledge span {
+    margin-right: 50px;
+}
+
+.learn-info {
+    display:flex;
+    justify-content:space-between;
+    width:90%;
+    margin:auto;
+}
+
+.learn-info .course {
+    width: 30%;
+    display:flex;
+}
+
+.learn-info .course .detail {
+    padding: 20px;
+    text-align: center;
+}
+
+.learn-info .question {
+    width: 33%;
+    display:flex;
+}
+
+.learn-info .question .detail {
+    padding: 20px;
+    text-align: center;
+}
+
+.learn-info .exam {
+    width: 30%;
+    display:flex;
+}
+
+.learn-info .exam .detail {
+    padding: 20px;
+    text-align: center;
 }
